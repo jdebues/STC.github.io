@@ -77,6 +77,8 @@ container-fluid {
     padding-bottom: 15px;
 }
 
+
+
 .p-2 {
     width: 600px;
 }
@@ -182,7 +184,10 @@ navbar-toggler {
 }
 
 
-
+.grid-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 
 
 
@@ -548,4 +553,3 @@ navbar-toggler {
     scroll-margin: 290px;
   }
 }
-
