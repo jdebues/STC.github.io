@@ -68,6 +68,7 @@ container-fluid {
     color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
+    flex-wrap: wrap;
 
 }
 
@@ -112,6 +113,7 @@ nav {
 
 #navbarNav {
     padding-left: 20px;
+    padding-right: -20px;
     float: right;
 }
 
@@ -126,6 +128,8 @@ navbar-toggler {
 
 .nav-item {
     color: white;
+    font-size: 20px;
+    font-family: "raleway";
 }
 
 .container-fluid a {
@@ -164,6 +168,13 @@ navbar-toggler {
     padding-top: 15px;
     padding-bottom: 15px;
     margin: auto;
+    flex: 1 0 auto;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .card-body {
@@ -190,15 +201,36 @@ navbar-toggler {
 }
 
 
+form {
+    
+}
 
+.form-group {
+    
+}
 
+label {
+    font-family: "Raleway";
+    font-size: 18px;
+    color: #008000;
+}
 
+input {
+    
+}
 
+form-check {
+    
+}
 
+h1 {
+    font-family: "PT Sans";
+}
 
-
-
-
+.text-uppercase {
+    color: white;
+    font-family: "Raleway";
+}
 
 
 
